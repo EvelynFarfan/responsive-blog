@@ -157,15 +157,30 @@ footer{
 		width: 100%; 
 	}
 }
-@media screen and (min-width: 760px) and (max-width : 770px){
+@media screen and (min-width: 760px) and (max-width : 771px){
+	
+	#total, #total2{
+		width: 100%; 
+	}
 	.menu-phone{
 		display: block;
     font-size: 35px;
     float: right;
     margin-top: 10%;
 	}
-		nav .menu-desktop{
+	nav .menu-desktop{
 		display: none;
+	}
+}
+@media screen and (min-width: 771px) and (max-width : 800px){
+	#total, #total2{
+		width: 100%; 
+	}
+	header img {
+    width: 140%;
+	}
+	.menu-phone {
+    margin-top: 4%;
 	}
 }
 @media screen and (max-width: 600px) {
