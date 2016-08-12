@@ -134,13 +134,11 @@ footer{
 	  background-size: 120%;
 	}
 }
-@media screen and (max-width : 999px) and (min-width :700px){
+@media screen and (max-width :1000px) {
 	nav{
 		display: none;
 	}
-	#amanda-about{
-		display: none;
-	}
+	
 	.banner{
 		width: 100%;
 	  height: 500px;
@@ -153,9 +151,7 @@ footer{
     float: right;
     margin-top: 2%;
 	}
-	#total, #total2{
-		width: 100%; 
-	}
+	
 	.descripcion {
     height: 100px;
     padding-top: 2%;
