@@ -157,7 +157,7 @@ footer{
 		width: 100%; 
 	}
 }
-@media screen and (min-width: 760px) and (max-width : 771px){
+@media screen and (min-width: 600px) and (max-width : 800px){
 	
 	#total, #total2{
 		width: 100%; 
@@ -181,6 +181,13 @@ footer{
 	}
 	.menu-phone {
     margin-top: 4%;
+	}
+	.descripcion {
+    height: 100px;
+    padding-top: 2%;
+	}
+	nav .menu-desktop{
+		display: none;
 	}
 }
 @media screen and (max-width: 600px) {
