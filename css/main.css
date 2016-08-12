@@ -5,9 +5,6 @@
  	box-sizing: border-box;
  	font-family: arial;
 }
-img{
-	width: 100%;
-}
 header{
 	background-color: #1C1821;
 }
@@ -24,6 +21,9 @@ header a{
 a:hover{
 	color: #F7BA6A;
 }
+img{
+	width: 100%;
+}
 .color{
 	background-color: #1C1821;
 }
@@ -32,10 +32,6 @@ a:hover{
 }
 
 /*------------------Section:Bloque1------------------*/
-.contenedor{
-	background-color: #2D2735;
-	padding: 3% 0;
-}
 .banner{
     height: 450px;
     margin: 0 auto;
@@ -48,6 +44,10 @@ a:hover{
 	margin: 0 auto;
 	background-color: #1C1821;
 	padding: 5% 3%;
+}
+.contenedor{
+	background-color: #2D2735;
+	padding: 3% 0;
 }
 .contenedor .banner .banner-color h1{
 	font-size: 700%;
@@ -77,6 +77,10 @@ h3{
 	font-size: 120%
 }
 /*------------------Section:Bloque3------------------*/
+/*-------Section:Bloque3 / parte 1 ----------*/
+.a{
+	margin-bottom: 3%;
+}
 .descripcion2{
 	padding: 4% 3%;
 }
@@ -84,16 +88,10 @@ h3{
 	margin: 0% 0 10% 0;
 }
 .form{
-	  background-color: #1C1821;
-    height: 100px;
-    padding: 5% 5%;
-    margin-bottom: 5%;
-}
-.a{
-	margin-bottom: 3%;
-}
-.video{
-	width: 100%;
+	background-color: #1C1821;
+  height: 100px;
+  padding: 5% 5%;
+  margin-bottom: 5%;
 }
 input{
 	background-color: #2D2735;
@@ -104,8 +102,17 @@ input{
   font-size:14px;
   height: 50px;
 }
-.texto-about{
-	margin-bottom: 6%;
+/*-------Section:Bloque3 / parte 1 ----------*/
+.video{
+	width: 100%;
+}
+/*-------Section:About me ----------*/
+.amanda-title{
+	padding: 5% 0;
+	margin: 0;
+}
+.about2{
+	padding: 5%;
 }
 .boton-icon{
 	background-color: #2D2735;
@@ -115,13 +122,10 @@ input{
   margin-right: 5%;
   margin-bottom: 6%;
 }
-.amanda-title{
-	padding: 5% 0;
-	margin: 0;
+.texto-about{
+	margin-bottom: 6%;
 }
-.about2{
-	padding: 5%;
-}
+/*-------footer ----------*/
 footer{
 	background-color: #1C1821;
 	padding: 2% 0	
