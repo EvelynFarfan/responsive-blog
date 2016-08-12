@@ -153,8 +153,12 @@ footer{
     float: right;
     margin-top: 2%;
 	}
-	#total2{
+	#total, #total2{
 		width: 100%; 
+	}
+	.descripcion {
+    height: 100px;
+    padding-top: 2%;
 	}
 }
 @media screen and (min-width: 600px) and (max-width : 800px){
