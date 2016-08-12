@@ -1,0 +1,239 @@
+ /* Inserta tu codigo aqui */
+*{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: arial;
+}
+img{
+	width: 100%;
+}
+header{
+	background-color: #1C1821;
+}
+header img{
+	width: 100%;
+}
+header nav{
+	margin-top: 5%;
+}
+header a{
+	margin-right: 3%;
+	font-style: italic;
+}
+a:hover{
+	color: #F7BA6A;
+}
+.color{
+	background-color: #1C1821;
+}
+.menu-phone{
+	display: none;
+}
+
+/*------------------Section:Bloque1------------------*/
+.contenedor{
+	background-color: #2D2735;
+	padding: 3% 0;
+}
+.banner{
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(../image/header-image.jpg);
+    background-size: 100%;
+    padding: 7% 2%;
+}
+.banner-color{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #1C1821;
+	padding: 5% 3%;
+}
+.contenedor .banner .banner-color h1{
+	font-size: 700%;
+	font-family: 'Courgette';
+	color: #F7BA6A;
+	margin-bottom: 5%;
+}
+.contenedor .banner .banner-color  p{
+	display: inline-block;
+	font-size: 120%
+}
+.guion{
+	margin: 0 2%;
+}
+.text-italic:hover{
+	color: #F7BA6A;
+}
+/*------------------Section:Bloque2------------------*/
+.descripcion{
+	height: 100px;
+  padding-top: 5%;
+}
+h3{
+	font-family: 'Courgette';
+	color: #F7BA6A;
+	margin:0% 0 3% 0;
+	font-size: 120%
+}
+/*------------------Section:Bloque3------------------*/
+.descripcion2{
+	padding: 4% 3%;
+}
+.descipcion2 h3, .descripcion2 p,{
+	margin: 0% 0 10% 0;
+}
+.form{
+	  background-color: #1C1821;
+    height: 100px;
+    padding: 5% 5%;
+    margin-bottom: 5%;
+}
+.a{
+	margin-bottom: 3%;
+}
+.video{
+	width: 100%;
+}
+input{
+	background-color: #2D2735;
+  width: 100%;
+  border:1px solid #2D2735;
+  margin-top:10px;
+  padding-left:15px;
+  font-size:14px;
+  height: 50px;
+}
+.texto-about{
+	margin-bottom: 6%;
+}
+.boton-icon{
+	background-color: #2D2735;
+  box-sizing: border-box;
+  padding: 3% 2% 3% 4%;
+  border-radius: 50%;
+  margin-right: 5%;
+  margin-bottom: 6%;
+}
+.amanda-title{
+	padding: 5% 0;
+	margin: 0;
+}
+.about2{
+	padding: 5%;
+}
+footer{
+	background-color: #1C1821;
+	padding: 2% 0	
+}
+
+/* Responsive */
+@media screen and (min-width : 1264px) and (max-width : 1000px){
+	.banner{
+	  height: 565px;
+	  background-size: 120%;
+	}
+}
+@media screen and (max-width : 999px) and (min-width :700px){
+	nav{
+		display: none;
+	}
+	#amanda-about{
+		display: none;
+	}
+	.banner{
+		width: 100%;
+	  height: 500px;
+	  background-size: 120%;
+	  background-repeat: no-repeat;
+	}
+	.menu-phone{
+		display: block;
+    font-size: 35px;
+    float: right;
+    margin-top: 2%;
+	}
+	#total2{
+		width: 100%; 
+	}
+}
+@media screen and (min-width: 760px) and (max-width : 770px){
+	.menu-phone{
+		display: block;
+    font-size: 35px;
+    float: right;
+    margin-top: 10%;
+	}
+		nav .menu-desktop{
+		display: none;
+	}
+}
+@media screen and (max-width: 600px) {
+	#amanda-about{
+		display: none;
+	}
+	nav .menu-desktop{
+		display: none;
+	}
+	.menu-phone{
+		display: block;
+    font-size: 35px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 8%;
+	}
+	.banner{
+		width: 100%;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: 150%;
+	}
+	.banner-color{
+		width: 95%;
+	}
+	#total, #total2{
+		width: 100%; 
+	}
+}
+@media screen and (max-width: 640px){
+	#total2{
+		width: 100%; 
+	}
+	.banner{
+		width: 100%;
+    background-repeat: no-repeat;
+    background-size: 150%;
+	}
+		nav .menu-desktop{
+		display: none;
+	}
+}
+@media screen and (max-width: 480px){
+	#total, #total2{
+		width: 100%; 
+	}
+	.menu-phone{
+		display: block;
+    font-size: 35px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 8%;
+	}
+	.menu-desktop{
+		display: none;
+	}
+}
+@media screen and (max-width: 320px){
+	header img{
+		width: 50%,
+	}
+	.contenedor .banner .banner-color h1{
+		font-size: 415%;
+	}
+	.banner{
+		height: 310px;
+	}
+		.menu-desktop{
+		display: none;
+	}
+}
